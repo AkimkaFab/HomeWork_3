@@ -1,0 +1,31 @@
+[ {
+  "uid" : "3d6825ba53c447fb",
+  "name" : "createTasksTest()",
+  "time" : {
+    "start" : 1706204104964,
+    "stop" : 1706204105077,
+    "duration" : 113
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "694aa60ecaed6dba",
+  "name" : "deleteTaskTest()",
+  "time" : {
+    "start" : 1706204105258,
+    "stop" : 1706204105276,
+    "duration" : 18
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "258742fdc337c2c8",
+  "name" : "completedUncompletedTasksFilterTest()",
+  "time" : {
+    "start" : 1706204105239,
+    "stop" : 1706204105242,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
