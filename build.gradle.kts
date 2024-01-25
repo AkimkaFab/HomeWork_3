@@ -22,6 +22,10 @@ repositories {
     mavenCentral()
 }
 
+reporting {
+    baseDir = File("allureReports")
+}
+
 dependencies {
     testImplementation(kotlin("test"))
     implementation("org.jetbrains.kotlin:kotlin-reflect:1.7.20")
