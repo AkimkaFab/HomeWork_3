@@ -1,5 +1,5 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
-//import org.slf4j.Logger
+import org.slf4j.Logger
 
 val allureVersion = "2.24.0"
 val aspectJVersion = "1.9.20.1"
@@ -36,7 +36,7 @@ dependencies {
     testImplementation(platform("io.qameta.allure:allure-bom:$allureVersion"))
     testImplementation("io.qameta.allure:allure-junit5")
     agent("org.aspectj:aspectjweaver:${aspectJVersion}")
-   // testImplementation("io.qameta.allure:allure-junit5:3.0.0")
+    testImplementation("io.qameta.allure:allure-junit5:3.0.0")
 }
 
 
