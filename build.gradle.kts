@@ -11,6 +11,7 @@ val agent: Configuration by configurations.creating {
 plugins {
     kotlin("jvm") version "1.7.20"
     id("io.qameta.allure") version "2.11.0"
+    id("io.qameta.allure-report") version "2.11.0"
     application
 }
 
