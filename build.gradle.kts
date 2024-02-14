@@ -37,8 +37,8 @@ dependencies {
     testImplementation(platform("io.qameta.allure:allure-bom:$allureVersion"))
     testImplementation("io.qameta.allure:allure-junit5")
 
-    testImplementation ("io.kotest:kotest-runner-junit5:5.4.2")
-    testImplementation ("io.kotest:kotest-assertions-core:5.4.2")
+    testImplementation ("io.kotest:kotest-runner-junit5:5.6.0")
+    testImplementation ("io.kotest:kotest-assertions-core:5.6.0")
     testImplementation("io.kotest:kotest-property:5.6.0")
 
     agent("org.aspectj:aspectjweaver:${aspectJVersion}")
